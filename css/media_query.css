@@ -1,0 +1,29 @@
+@media (max-width: 695px) {
+  header .right-side{
+    display: none;
+  }
+  header .button-sign-in-link{
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  main .container{
+    width: 90%;
+    padding: var(--size-1rem);
+  }
+  main .container .form-container .form-footer{
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: var(--size-1rem);
+  }
+  main .container .form-container .form-body .input-row-wrapper .input-row:last-child{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:  380px) {
+  main .container .form-container .form-body .input-row-wrapper .input-row:first-child{
+    flex-wrap: wrap;
+  }
+}
