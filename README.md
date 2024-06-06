@@ -47,10 +47,11 @@ You need a modern web browser to run this application.
 
 ## Project Structure
 
-- `index.html`: Main HTML file for the login page.
-- `signup.html`: HTML file for the sign-up page.
-- `styles.css`: CSS file for styling the application.
-- `script.js`: JavaScript file for handling form validation and interactivity.
+- `index.html`: Main HTML file for the login and sign up.
+- `css/style.css`: CSS file for styling the application.
+- `css/variables.css`: CSS file for variables.
+- `css/media_query.css`: CSS file for responsive design.
+- `js/script.js`: JavaScript file for interactivity.
 - `README.md`: Project documentation.
 
 ## Screenshots
